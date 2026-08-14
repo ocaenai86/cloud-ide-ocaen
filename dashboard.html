@@ -1,0 +1,43 @@
+<div class="dashboard">
+  <aside class="sidebar">
+    <h3>داشبورد</h3>
+    <ul>
+      <li>پروژه‌ها</li>
+      <li>فعالیت‌ها</li>
+      <li>تنظیمات</li>
+    </ul>
+  </aside>
+
+  <main class="main-area">
+    <h2>پروژه‌های شما</h2>
+    <div class="project-card">
+      <h3>My First Project</h3>
+      <p>آخرین آپدیت: امروز</p>
+    </div>
+  </main>
+</div>
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  width: 220px;
+  background: #020617;
+  padding: 1rem;
+  border-right: 1px solid #1e293b;
+}
+.sidebar ul li {
+  padding: 0.7rem 0;
+  color: #94a3b8;
+}
+.main-area {
+  flex: 1;
+  padding: 1.5rem;
+}
+.project-card {
+  background: #0f172a;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #1e293b;
+  margin-bottom: 1rem;
+}
